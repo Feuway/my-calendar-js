@@ -1,0 +1,42 @@
+$grey: #bbb;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.alert {
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+
+table {
+    margin: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    
+    th {
+        padding: 5px;
+        border: 1px solid black;
+        background: #dddddd;
+
+    }
+
+    td {
+        padding: 5px;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+.today {
+    background: #ddbcb6;
+}
+
+.other-day {
+    color: #e3e4eb;
+}
